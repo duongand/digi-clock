@@ -4,7 +4,7 @@ This project introduced the usage of Javascript to manipulate DOM elements withi
 
 [Live Demo](https://duongand.github.io/digi-clock/)
 
-![demo-screenshot](./static/images/demo-screenshot.png)
+![demo-screenshot](./images/demo-screenshot.png)
 
 ### Summary
 
