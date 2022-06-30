@@ -43,9 +43,9 @@ function check_time() {
 
     // Update CSS stylesheet based on the time of the day
     if (hour > 4 && hour < 16) {
-        document.getElementById('page-style').setAttribute('href', './static/css/morning.css')
+        document.getElementById('page-style').setAttribute('href', './styles/morning.css')
     } else {
-        document.getElementById('page-style').setAttribute('href', './static/css/night.css')
+        document.getElementById('page-style').setAttribute('href', './styles/night.css')
     }
 
 };
