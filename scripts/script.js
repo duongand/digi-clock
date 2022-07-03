@@ -14,10 +14,10 @@ function checkTime() {
         timeOfDay = 'AM';
     } else {
         timeOfDay = 'PM';
-        hour = checkZero(hour -= 12);
+        hour -= 12;
     };
 
-    document.getElementById('digital-clock').textContent = `${hour}:${minute}:${seconds} ${timeOfDay}`;
+    document.getElementById('digital-clock').textContent = `0${hour}:${minute}:${seconds} ${timeOfDay}`;
 
     // Update CSS stylesheet based on the time of the day
     if (timeOfDay === 'AM') {
